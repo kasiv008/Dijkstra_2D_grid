@@ -55,13 +55,13 @@ class dijkstra():
 
             if self.current_node == self.goal:
                 self.found_path = 1
-                print("path found")
+                #print("path found")
            
             self.current_node = self.get_next_node()
 
             if self.current_node == -1:
                 self.found_path = -1
-                print("path not found")
+                #print("path not found")
 
 
     def get_neighbours(self, node):
